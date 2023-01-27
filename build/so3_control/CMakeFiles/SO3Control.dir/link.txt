@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O3 -DNDEBUG  -shared -Wl,-soname,libSO3Control.so -o /home/xiongzh/catkin_ws/devel/lib/libSO3Control.so CMakeFiles/SO3Control.dir/src/SO3Control.cpp.o  -L/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/cmake_utils/lib/mosek8 

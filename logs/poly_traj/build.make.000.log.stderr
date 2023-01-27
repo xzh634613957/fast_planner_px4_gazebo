@@ -1,0 +1,42 @@
+In file included from [01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:2:0[m[K:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kvoid PolynomialTraj::init()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:41:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < times.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble PolynomialTraj::getLength()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:143:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 1; [01;35m[Ki < traj_vec3d.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble PolynomialTraj::getMeanVel()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:152:12:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmean_vel[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     double [01;35m[Kmean_vel[m[K = length / time_sum;
+            [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:153:3:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   [01;35m[K}[m[K
+   [01;35m[K^[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble PolynomialTraj::getAccCost()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:159:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int s = 0; [01;35m[Ks < times.size()[m[K; ++s) {
+                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble PolynomialTraj::getJerk()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:172:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int s = 0; [01;35m[Ks < times.size()[m[K; ++s) {
+                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kvoid PolynomialTraj::getMeanAndMaxVel(double&, double&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:201:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int s = 0; [01;35m[Ks < times.size()[m[K; ++s) {
+                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kvoid PolynomialTraj::getMeanAndMaxAcc(double&, double&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/include/poly_traj/polynomial_traj.h:235:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int s = 0; [01;35m[Ks < times.size()[m[K; ++s) {
+                     [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:[m[K In function ‘[01m[KPolynomialTraj fastLine4deg(Eigen::Vector3d, Eigen::Vector3d, double, double, double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:176:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Klen[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Klen[m[K = disp.norm();
+          [01;35m[K^~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:177:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kdir[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   Eigen::Vector3d [01;35m[Kdir[m[K = disp.normalized();
+                   [01;35m[K^~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/poly_traj/src/polynomial_traj.cpp:180:7:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kmax_id[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   int [01;35m[Kmax_id[m[K = -1;
+       [01;35m[K^~~~~~[m[K

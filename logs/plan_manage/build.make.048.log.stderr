@@ -1,0 +1,26 @@
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid bsplineCallback(plan_manage::BsplineConstPtr)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:109:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->knots.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:113:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->pos_pts.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:125:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < msg->yaw_pts.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:[m[K In function ‘[01m[Kvoid cmdCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:232:8:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kpos_err[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   auto [01;35m[Kpos_err[m[K = pos_f - pos;
+        [01;35m[K^~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:227:22:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& acc +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   [01;35m[Kcmd.acceleration.z = acc(2)[m[K;
+   [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:222:18:[m[K [01;35m[Kwarning: [m[K‘[01m[K*((void*)& vel +16)[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   [01;35m[Kcmd.velocity.y = vel(1)[m[K;
+   [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:230:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kyawdot[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   [01;35m[Kcmd.yaw_dot = yawdot[m[K;
+   [01;35m[K~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/traj_server.cpp:186:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kyaw[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   double [01;35m[Kyaw[m[K, yawdot;
+          [01;35m[K^~~[m[K

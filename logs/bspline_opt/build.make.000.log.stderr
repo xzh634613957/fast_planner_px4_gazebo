@@ -1,0 +1,19 @@
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::optimize()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:156:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     nlopt::result [01;35m[Kresult[m[K = opt.optimize(q, final_cost);
+                   [01;35m[K^~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcSmoothnessCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:182:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - order_[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcFeasibilityCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:233:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - 1[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:249:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - 2[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcWaypointsCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/bspline_opt/src/bspline_optimizer.cpp:295:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < waypoints_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K

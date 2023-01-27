@@ -1,0 +1,153 @@
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:[m[K In member function ‘[01m[Kint fast_planner::KinodynamicAstar::search(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d, bool, bool, double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:125:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < inputs.size()[m[K; ++i)
+                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:126:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int j = 0; [01;35m[Kj < durations.size()[m[K; ++j) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:199:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+         for (int j = 0; [01;35m[Kj < tmp_expand_nodes.size()[m[K; ++j) {
+                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:43:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kneighbor[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   PathNodePtr [01;35m[Kneighbor[m[K       = NULL;
+               [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:[m[K In member function ‘[01m[Kint fast_planner::KinodynamicAstar::timeToIndex(double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:654:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kidx[m[K = floor((time - time_origin_) * inv_time_resolution_);
+       [01;35m[K^~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/kinodynamic_astar.cpp:655:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:[m[K In member function ‘[01m[Kint fast_planner::Astar::search(Eigen::Vector3d, Eigen::Vector3d, bool, double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:128:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_to_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+           double [01;35m[Ktime_to_goal[m[K, tmp_g_score, tmp_f_score;
+                  [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:24:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktime_to_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Ktime_to_goal[m[K;
+          [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:42:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kneighbor[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   NodePtr [01;35m[Kneighbor[m[K = NULL;
+           [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> > fast_planner::Astar::getPath()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:205:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < path_nodes_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:[m[K In member function ‘[01m[Kint fast_planner::Astar::timeToIndex(double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:303:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kidx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   int [01;35m[Kidx[m[K = floor((time - time_origin_) * inv_time_resolution_);
+       [01;35m[K^~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:304:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopologyPRM::needConnection(fast_planner::GraphNode::Ptr, fast_planner::GraphNode::Ptr, Eigen::Vector3d)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:213:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < g1->neighbors_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:214:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < g2->neighbors_.size()[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:212:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Khas_connect[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   bool [01;35m[Khas_connect[m[K = false;
+        [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::pruneEquivalent(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:302:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 1; [01;35m[Ki < paths.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:306:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < exist_paths_id.size()[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:322:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < exist_paths_id.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::selectShortPaths(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, int)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:357:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < short_paths.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:361:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < short_paths.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kint fast_planner::TopologyPRM::shortestPath(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:399:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < paths.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kdouble fast_planner::TopologyPRM::pathLength(const std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:412:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> > fast_planner::TopologyPRM::discretizePath(const std::vector<Eigen::Matrix<double, 3, 1> >&, int)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:422:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:438:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < len_list.size() - 1[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopologyPRM::shortcutPath(std::vector<Eigen::Matrix<double, 3, 1> >, int, int)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:477:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 1; [01;35m[Ki < dis_path.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopologyPRM::shortcutPaths()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:511:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < raw_paths_.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:514:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < raw_paths_.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:518:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < raw_paths_.size()[m[K; ++i) shortcutPath(raw_paths_[i], i);
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<Eigen::Matrix<double, 3, 1> > fast_planner::TopologyPRM::discretizePath(std::vector<Eigen::Matrix<double, 3, 1> >)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:545:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:551:11:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     if ([01;35m[Ki != path.size() - 2[m[K) dis_path.pop_back();
+         [01;35m[K~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::discretizePaths(std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:560:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < path.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[KEigen::Vector3d fast_planner::TopologyPRM::getOrthoPoint(const std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:580:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 1; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kstd::vector<std::vector<Eigen::Matrix<double, 3, 1> > > fast_planner::TopologyPRM::searchPaths()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:605:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < raw_paths_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:615:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < path_list[i].size()[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:617:35:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       if ([01;35m[Kfilter_raw_paths.size() >= max_raw_path2_[m[K) {
+           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopologyPRM::depthFirstSearch(std::vector<std::shared_ptr<fast_planner::GraphNode> >&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:634:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < cur->neighbors_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:639:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int j = 0; [01;35m[Kj < vis.size()[m[K; ++j) {
+                       [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:645:29:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       if ([01;35m[Kraw_paths_.size() >= max_raw_path_[m[K) return;
+           [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:651:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < cur->neighbors_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:657:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < vis.size()[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:668:27:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     if ([01;35m[Kraw_paths_.size() >= max_raw_path_[m[K) return;
+         [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopologyPRM::triangleVisib(Eigen::Vector3d, Eigen::Vector3d, Eigen::Vector3d)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/topo_prm.cpp:691:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < pts.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:[m[K In member function ‘[01m[Kdouble fast_planner::Astar::getDiagHeu(Eigen::Vector3d, Eigen::Vector3d)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:231:25:[m[K [01;35m[Kwarning: [m[K‘[01m[Kh[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   return tie_breaker_ * [01;35m[Kh[m[K;
+                         [01;35m[K^[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:[m[K In member function ‘[01m[Kint fast_planner::Astar::search(Eigen::Vector3d, Eigen::Vector3d, bool, double)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/path_searching/src/astar.cpp:107:43:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpro_t[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+           int pro_t_id = timeToIndex(pro_t[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K

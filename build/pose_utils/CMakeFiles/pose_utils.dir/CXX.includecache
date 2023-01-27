@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/pose_utils/include/pose_utils.h
+iostream
+-
+armadillo
+/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/pose_utils/include/armadillo
+
+/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/pose_utils/src/pose_utils.cpp
+pose_utils.h
+/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/pose_utils/src/pose_utils.h
+

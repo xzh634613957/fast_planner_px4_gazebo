@@ -1,0 +1,10 @@
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:57:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:2[m[K:
+[01m[K/opt/ros/melodic/include/ros/duration.h:[m[K In function ‘[01m[Kvoid load_seg(ros::NodeHandle&, int, const ros::Time&)[m[K’:
+[01m[K/opt/ros/melodic/include/ros/duration.h:119:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktime_from_start[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+   explicit Duration(double t) { [01;35m[KfromSec(t)[m[K; }
+                                 [01;35m[K~~~~~~~^~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/uav_simulator/Utils/waypoint_generator/src/waypoint_generator.cpp:33:12:[m[K [01;36m[Knote: [m[K‘[01m[Ktime_from_start[m[K’ was declared here
+     double [01;36m[Ktime_from_start[m[K;
+            [01;36m[K^~~~~~~~~~~~~~~[m[K

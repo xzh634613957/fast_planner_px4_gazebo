@@ -1,0 +1,16 @@
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopoReplanFSM::execFSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:194:25:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kstart_pos[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+         Eigen::Vector3d [01;35m[Kstart_pos[m[K = info->start_pos_;
+                         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::TopoReplanFSM::checkCollisionCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:274:20:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knew_goal[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       bool         [01;35m[Knew_goal[m[K = false;
+                    [01;35m[K^~~~~~~~[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopoReplanFSM::callSearchAndOptimization()[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:347:50:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ bool TopoReplanFSM::callSearchAndOptimization() {[01;35m[K}[m[K
+                                                  [01;35m[K^[m[K
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:[m[K In member function ‘[01m[Kbool fast_planner::TopoReplanFSM::callTopologicalTraj(int)[m[K’:
+[01m[K/home/xiongzh/catkin_ws/src/Fast-Planner/fast_planner/plan_manage/src/topo_replan_fsm.cpp:398:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplan_data[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     MidPlanData* [01;35m[Kplan_data[m[K = &planner_manager_->plan_data_;
+                  [01;35m[K^~~~~~~~~[m[K
